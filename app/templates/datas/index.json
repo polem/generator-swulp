@@ -1,0 +1,24 @@
+{
+  "features" : {
+    "swig" : {
+      "title" : "Swig templates",
+      "description" : "A Node.js and Browser-based JavaScript Template Engine"
+    },
+    "html5" : {
+      "title" : "HTML5 Boilerplate",
+      "description" : "HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites."
+    },
+    "sass" : {
+      "title" : "Sass with Compass",
+      "description" : "Compass is an open-source CSS Authoring Framework that uses Sass."
+    },
+    "bootstrap" : {
+      "title" : "Bootstrap",
+      "description" : "Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development."
+    },
+    "modernizr" : {
+      "title" : "Modernizr",
+      "description" : "Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites."
+    }
+  }
+}
