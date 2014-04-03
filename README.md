@@ -4,8 +4,6 @@
 
 [Yeoman](http://yeoman.io) generator that scaffolds out a front-end web app using [Gulp](http://gulpjs.com/) for the build process.
 
-![](http://i.imgur.com/rwDYkQy.png)
-
 ## Features
 
 Please see our [gulpfile.js](https://github.com/polem/generator-swulp/blob/master/app/templates/gulpfile.js) for up to date information on what we support.
