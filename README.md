@@ -1,6 +1,6 @@
-# Swulp Generator
+# Swulp Generator [![NPM version](https://badge.fury.io/js/generator-swulp.svg)](http://badge.fury.io/js/generator-swulp)
 
-! This is very largely inspired by [generator-gulp-webapp](https://github.com/yeoman/generator-gulp-webapp)
+:warning: This is very largely inspired by [generator-gulp-webapp](https://github.com/yeoman/generator-gulp-webapp)
 
 [Yeoman](http://yeoman.io) generator that scaffolds out a front-end web app using [Gulp](http://gulpjs.com/) for the build process.
 
