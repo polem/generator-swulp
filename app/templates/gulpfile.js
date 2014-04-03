@@ -121,11 +121,18 @@ gulp.task('wiredep', function () {
     .pipe(gulp.dest('app/styles'));
 
     gulp.src('app/*.html')
-    .pipe(wiredep({
-      directory: 'app/bower_components',
-      ignorePath: 'app/'
-    }))
-    .pipe(gulp.dest('app'));
+      .pipe(wiredep({
+        directory: 'app/bower_components',
+        ignorePath: 'app/'
+      }))
+      .pipe(gulp.dest('app'));
+
+    gulp.src('app/layouts/*.swig')
+      .pipe(wiredep({
+        directory: 'app/bower_components',
+        ignorePath: '../'
+      }))
+      .pipe(gulp.dest('app'));
 });
 
 // Watch
