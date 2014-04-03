@@ -183,7 +183,12 @@ AppGenerator.prototype.install = function () {
         bowerJson: bowerJson,
         directory: 'app/bower_components',
         ignorePath: 'app/',
-        src: 'app/layouts/_base.swig'
+        src: ['app/**/*.html'],
+      }, {
+        bowerJson: bowerJson,
+        directory: 'app/bower_components',
+        ignorePath: '^(.+)/([^/]+)$',
+        src: 'app/**/*.swig',
       });
 
       if (this.includeSass) {
