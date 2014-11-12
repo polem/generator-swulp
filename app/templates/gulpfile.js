@@ -69,9 +69,7 @@ gulp.task('images', function () {
 });
 
 // Clean
-gulp.task('clean', function () {
-    return gulp.src(['dist/styles', 'dist/scripts', 'dist/images'], { read: false }).pipe($.clean());
-});
+gulp.task('clean', require('del').bind(null, ['dist/styles', 'dist/scripts', 'dist/images']));
 
 // Build
 gulp.task('build', ['templates', 'html', 'images']);
